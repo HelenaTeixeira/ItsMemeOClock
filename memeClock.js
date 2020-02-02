@@ -62,4 +62,20 @@ let partyEvent = function(){
 };
 partyButton.addEventListener("click",partyEvent);
 
-//morning time 
+//morning time button
+let morningButton= document.getElementById("morningTimeButton");
+let morningEvent = function(){
+    let memeTimeImageJS=document.getElementById('memeTimeImage');
+    image= "https://images2.memedroid.com/images/UPLOADED5/5064496bbdd52.jpeg";
+    memeTimeImageJS.src=image;
+};
+morningButton.addEventListener("click",morningEvent);
+
+//night time button
+let nightButton= document.getElementById("nightTimeButton");
+let nightEvent = function(){
+    let memeTimeImageJS=document.getElementById('memeTimeImage');
+    image= "https://sayingimages.com/wp-content/uploads/happy-bedtime-meme.jpg";
+    memeTimeImageJS.src=image;
+};
+nightButton.addEventListener("click",nightEvent);
